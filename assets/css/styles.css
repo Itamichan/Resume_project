@@ -4,6 +4,9 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Colors*/
@@ -89,6 +92,9 @@ header {
     margin: 0;
 }
 
+.flex-main {
+    flex: 1;
+}
 .heading {
     margin-left: 50px;
 }
