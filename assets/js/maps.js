@@ -1,3 +1,5 @@
+var g_key = APIs.google_KEY;
+
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
@@ -25,3 +27,4 @@ function initMap() {
         imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 }
+
